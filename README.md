@@ -11,10 +11,7 @@ iOS 7.0
 
 ###Credits
 
-Uses APIs by [OpenWeatherMap](http://openweathermap.org/API) 
-
-
-Uses the following libraries:
+APIs by [OpenWeatherMap](http://openweathermap.org/API) 
 
 [Shimmer](https://github.com/facebook/Shimmer) by Facebook
 
