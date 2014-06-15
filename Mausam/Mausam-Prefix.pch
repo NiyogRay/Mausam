@@ -1,0 +1,30 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "APIHelper.h"
+    #import "PlistHelper.h"
+    #import "FBShimmeringView.h"
+    #import "NSMutableArray+Helper.h"
+    #import "UIResponder+CurrentFirstResponder.h"
+    #import "APTimeZones.h"
+    #import "CLLocation+APTimeZones.h"
+    #import "LocationStore.h"
+#endif
+
+#define IS_DEBUG NO
+#define IS_DEBUG_RESPONSE NO
+
+#define APP_ID "0a9fdce130c3d8855b62627033d1112d"
