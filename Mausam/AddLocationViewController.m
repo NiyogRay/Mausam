@@ -116,6 +116,8 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField              // called when 'return' key pressed. return NO to ignore.
 {
+    [self dismissKeyboard];
+    
     return YES;
 }
 
@@ -163,7 +165,7 @@
         else if (count == 1)
             resultsTitle = @"1 result found";
         else
-            resultsTitle = [NSString stringWithFormat:@"%d results found", count];
+            resultsTitle = [NSString stringWithFormat:@"%ld results found", (long)count];
     }
     else
         resultsTitle = @"";
