@@ -33,8 +33,6 @@
     NSString *timezone;
     
     NSMutableArray *forecasts;
-    
-    CFTimeInterval startTime, elapsedTime;
 }
 
 - (void)configureView;

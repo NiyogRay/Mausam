@@ -15,5 +15,4 @@
 @property (weak, nonatomic) IBOutlet UILabel *locationTempLbl;
 @property (weak, nonatomic) IBOutlet UIImageView *locationWeatherIV;
 
-
 @end
