@@ -10,29 +10,29 @@
 	<string>Mausam</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D9381C81-4152-4616-B5F0-5585FB20EF58</key>
+		<key>12C1479CE85EA3F8F9E55D9D516B154169927811</key>
 		<string>https://github.com/NiyogRay/Mausam.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Mausam.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D9381C81-4152-4616-B5F0-5585FB20EF58</key>
+		<key>12C1479CE85EA3F8F9E55D9D516B154169927811</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/NiyogRay/Mausam.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D9381C81-4152-4616-B5F0-5585FB20EF58</string>
+	<string>12C1479CE85EA3F8F9E55D9D516B154169927811</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D9381C81-4152-4616-B5F0-5585FB20EF58</string>
+			<string>12C1479CE85EA3F8F9E55D9D516B154169927811</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Mausam</string>
 		</dict>
