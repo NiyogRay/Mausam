@@ -502,7 +502,7 @@
 		B50A34C9194A1BDE00A2A445 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Niyog Ray";
 				TargetAttributes = {
 					B50A34F4194A1BDE00A2A445 = {
@@ -670,6 +670,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Bharat Jain (GAPQXG6387)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -734,6 +735,7 @@
 				GCC_PREFIX_HEADER = "Mausam/Mausam-Prefix.pch";
 				INFOPLIST_FILE = "Mausam/Mausam-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vucentric.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -748,6 +750,7 @@
 				GCC_PREFIX_HEADER = "Mausam/Mausam-Prefix.pch";
 				INFOPLIST_FILE = "Mausam/Mausam-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vucentric.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -769,6 +772,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MausamTests/MausamTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vucentric.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -787,6 +791,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mausam/Mausam-Prefix.pch";
 				INFOPLIST_FILE = "MausamTests/MausamTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vucentric.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
