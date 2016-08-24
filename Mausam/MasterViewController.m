@@ -82,14 +82,12 @@
 {
     NSUInteger row = indexPath.row;
     
-//    LocationTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LocationTableViewCell"];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
     NSDictionary *location = locations[row];
     NSString *locationName = [location objectForKey:@"name"];
     NSString *locationCountryCode = [[location objectForKey:@"sys"] objectForKey:@"country"];
     
-//    cell.locationNameLbl.text = [NSString stringWithFormat:@"%@, %@", locationName, locationCountryCode];
     cell.textLabel.text = [NSString stringWithFormat:@"%@, %@", locationName, locationCountryCode];
     
     return cell;
@@ -144,7 +142,9 @@
         
         NSMutableDictionary *location = locations[indexPath.row];
 
-        [[segue destinationViewController] setLocation:location];
+        UINavigationController *nc = segue.destinationViewController;
+        DetailViewController *detailVC = (DetailViewController *)(nc.viewControllers[0]);
+        [detailVC setLocation:location];
     }
 }
 
